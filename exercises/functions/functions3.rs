@@ -5,7 +5,8 @@
 
 
 fn main() {
-    call_me(3);
+    let mut num : u32 = 3;
+    call_me(num);
 }
 
 fn call_me(num: u32) {
